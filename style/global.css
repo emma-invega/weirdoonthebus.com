@@ -1,0 +1,94 @@
+body {
+    background: #000;
+    color: #FFF;
+    font-family: Courier, monospace;
+}
+a {
+    color: #FFF;
+    text-decoration: none;
+}
+a:hover, a:active, a:focus {
+    text-decoration: underline;
+}
+body header, body main, body footer {
+    margin: 32px;
+}
+body header {
+    margin-top: 64px;
+}
+.menu ul {
+    list-style: none;
+    margin-bottom: 0;
+    padding: 0px;
+}
+.menu li {
+    display: inline;
+}
+.menu span {
+    padding: 0px 16px;
+}
+#maincontent {
+    max-width: 973px;
+    width: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+.imggrid {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    max-width: 100%;
+    padding: 0;
+    list-style: none;
+}
+.imggrid li {
+    flex-shrink: 0;
+    margin-right: 16px;
+}
+.imggrid li:last-child {
+    margin-right: 0;
+}
+figure {
+    margin: 1em 0;
+}
+figure.std {
+    max-width: 308px;
+    width: 100%;
+}
+figure img {
+    width: 100%;
+}
+figure .whitebg, figure .blackbg {
+    align-items: center;
+    aspect-ratio: 1 / 1;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.whitebg {
+    background: #FFF;
+}
+.blackbg {
+    background: #000;
+}
+.figlink {
+    display: inline-block;
+}
+.audiocontainer {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+.audiocontainer > * {
+    display: inline-flex;
+}
+.audiocontainer > div {
+    flex-grow: 1;
+}
+.audiocontainer > a {
+    flex-grow: 0;
+}
+.audiocontainer audio {
+    width: 100%;
+}
