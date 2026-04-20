@@ -76,6 +76,10 @@ figure.std {
     max-width: 308px;
     width: 100%;
 }
+figure.lrg {
+    max-width: 800px;
+    width: 100%;
+}
 figure img {
     width: 100%;
 }
@@ -112,4 +116,22 @@ figcaption > * {
 }
 .audiocontainer audio {
     width: 100%;
+}
+video {
+	aspect-ratio: 16 / 9;
+	background: #000;
+	max-width: 800px;
+	width: 100%;
+  
+}
+.cta {
+	background: #000;
+	border: 0;
+	border-radius: 0;
+	color: #FFF;
+	cursor: pointer;
+    font-family: Courier, monospace;
+	font-size: 1.3em;
+	font-weight: bold;
+	padding: 16px;
 }

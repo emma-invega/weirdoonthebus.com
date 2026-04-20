@@ -31,6 +31,19 @@
 				</li>
 				<li>
 					<figure class="std">
+						<a href="<?php echo $root; ?>sunnli5hht/tranniversary-video.php">
+							<img src="<?php echo $root; ?>images/sunnli5hht-tranniversary-thumbnail.jpg" alt="Sunnli5hh/t - Tranniversary (Music Video)" title="Sunnli5hh/t - Tranniversary (Music Video)" />
+						</a>
+						<figcaption>
+							<a href="<?php echo $root; ?>sunnli5hht/tranniversary-video.php">
+								<strong>Tranniversary (Music Video)</strong>
+							</a>
+							<small>Dececmber 1st, 2023</small>
+						</figcaption>
+					</figure>
+				</li>
+				<li>
+					<figure class="std">
 						<a href="<?php echo $root; ?>sunnli5hht/tranniversary.php">
 							<img src="<?php echo $root; ?>images/sunnli5hht-tranniversary-cover.jpg" alt="Sunnli5hh/t - Tranniversary" title="Sunnli5hh/t - Tranniversary" />
 						</a>
@@ -117,6 +130,32 @@
 								<strong>Yesterday at 8:11am</strong>
 							</a>
 							<small>November 9th, 2018</small>
+						</figcaption>
+					</figure>
+				</li>
+				<li>
+					<figure class="std">
+						<a href="<?php echo $root; ?>sunnli5hht/see-you-soon-video.php">
+							<img src="<?php echo $root; ?>images/sunnli5hht-see-you-soon-thumbnail.jpg" alt="Sunnli5hh/t - See You Soon (Music Video)" title="Sunnli5hh/t - See You Soon (Music Video)" />
+						</a>
+						<figcaption>
+							<a href="<?php echo $root; ?>sunnli5hht/see-you-sooon-video.php">
+								<strong>See You Soon (Music Video)</strong>
+							</a>
+							<small>August 30th, 2017</small>
+						</figcaption>
+					</figure>
+				</li>
+				<li>
+					<figure class="std">
+						<a href="<?php echo $root; ?>sunnli5hht/january-22nd-video.php">
+							<img src="<?php echo $root; ?>images/sunnli5hht-january-22nd-thumbnail.jpg" alt="Sunnli5hh/t - January 22nd (Music Video)" title="Sunnli5hh/t - January 22nd (Music Video)" />
+						</a>
+						<figcaption>
+							<a href="<?php echo $root; ?>sunnli5hht/january-22nd-video.php">
+								<strong>January 22nd (Music Video)</strong>
+							</a>
+							<small>August 28th, 2017</small>
 						</figcaption>
 					</figure>
 				</li>

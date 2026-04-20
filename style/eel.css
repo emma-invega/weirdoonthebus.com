@@ -5,3 +5,8 @@ body {
 a {
     color: #693CFB;
 }
+
+.cta {
+	background: #693CFB;
+	color: #FFF;
+}
