@@ -1,20 +1,30 @@
+@font-face {
+    font-family: 'Kepler452b';
+    src: url('../fonts/Kepler452b-Regular.woff2') format('woff2'),
+        url('../fonts/Kepler452b-Regular.woff') format('woff'),
+        url('../fonts/Kepler452b-Regular.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
 body {
-    background: #000;
-    color: #FFF;
+    background: #FFF;
+    color: #000;
     font-family: Courier, monospace;
 }
 a {
-    color: #FFF;
+    color: #000;
     text-decoration: none;
 }
 a:hover, a:active, a:focus {
     text-decoration: underline;
 }
+small {
+	font-size: .8em;
+}
 body header, body main, body footer {
     margin: 32px;
-}
-body header {
-    margin-top: 64px;
 }
 .menu ul {
     list-style: none;
@@ -27,12 +37,25 @@ body header {
 .menu span {
     padding: 0px 16px;
 }
-#maincontent {
-    max-width: 973px;
-    width: 100%;
+main {
+    width: calc(100% - 64px);
 }
 h1, h2, h3, h4, h5, h6 {
+	font-family: Kepler452b;
+	font-size: 2.7em;
     font-weight: normal;
+}
+.aliases {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.aliases li {
+	margin-bottom: 1em;
+	padding: 1em;
+}
+.aliases li a {
+	display: block;
 }
 .imggrid {
     display: flex;
@@ -44,13 +67,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 .imggrid li {
     flex-shrink: 0;
-    margin-right: 16px;
-}
-.imggrid li:last-child {
-    margin-right: 0;
+    margin: 0 1em 2.5em 0em;
 }
 figure {
-    margin: 1em 0;
+    margin: 0;
 }
 figure.std {
     max-width: 308px;
@@ -72,8 +92,9 @@ figure .whitebg, figure .blackbg {
 .blackbg {
     background: #000;
 }
-.figlink {
-    display: inline-block;
+figcaption > * {
+	clear: both;
+    float: left;
 }
 .audiocontainer {
     display: flex;

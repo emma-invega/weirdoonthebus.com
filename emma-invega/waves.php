@@ -4,11 +4,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Emma Invega :: Music</title>
+    <title>Emma Invega :: Waves</title>
     <link rel="stylesheet" href="<?php echo $root; ?>style/global.css" />
+    <link rel="stylesheet" href="<?php echo $root; ?>style/emma-invega.css" />
   </head>
   <body>
-    <?php require_once("../header.php"); ?>
+	<header>
+		<a href="<?php echo $root; ?>music/emma-invega"><img src="<?php echo $root; ?>images/emma-invega-ascii.png" alt="Emma Invega" title="Emma Invega" height="116px"></a>
+		<?php require_once("../menu.php"); ?>
+	</header>
     <main id="maincontent">
         <h1>Waves</h1>
         <section class="audiocontainer">
@@ -21,9 +25,9 @@
                     Your browser does not support the audio element.
                 </audio>
             </div>
-            <a href="<?php echo $root; ?>images/waves-cover.jpg" class="figlink">
+            <a href="<?php echo $root; ?>images/emma-invega-waves-cover.jpg" class="figlink" target="_blank">
                 <figure class="std">
-                    <img src="<?php echo $root; ?>images/waves-cover.jpg">
+                    <img src="<?php echo $root; ?>images/emma-invega-waves-cover.jpg">
                 </figure>
             </a>
         </section>
